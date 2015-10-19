@@ -103,4 +103,4 @@ puts print_board(g)
 puts
 puts g.result
 
-binding.pry;''
+# binding.pry;''
