@@ -73,6 +73,11 @@ if g.playerA.empty?
   g.playerA = "Player A"
 end
 
+if g.player1 == g.playerA
+  g.player1 = "#{g.player1}1"
+  g.playerA = "#{g.playerA}A"
+end
+
 until g.finished?
   puts `clear`
   puts "Remember the boxes go:"
